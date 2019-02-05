@@ -15,17 +15,16 @@ const BackgContainer = styled.div`
 `;
 
 const BodyDiv = styled.div`
-  position: relative;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
 `;
 
 const ImgDiv = styled.div`
-  min-height: 300px;
+  position: relative;
   min-width: 300px;
 `;
 
@@ -55,7 +54,6 @@ const IndexPage = () => (
             <Title as="h2" size="medium">
               Em breve mais informações!
             </Title>
-
           </ImgDiv>
         </BodyDiv>
       </Layout>
